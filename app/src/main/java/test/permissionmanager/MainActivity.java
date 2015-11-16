@@ -53,12 +53,12 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
 
     }
 
-   
+
     @Override
     public void onClick(View v) {
         switch (((TextView) v).getText().toString()) {
             case "CALENDAR":
-                PermissionManager.requestPermission(this, new PermissionManager.PermissionsListener() {
+                PermissionManager.requestPermission(this,"explanation in case of deny", new PermissionManager.PermissionsListener() {
                     @Override
                     public void onDeny() {
                         Toast.makeText(MainActivity.this, "on CALENDAR onDeny", Toast.LENGTH_SHORT).show();
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
                 }, PermissionManager.READ_CALENDAR);
                 break;
             case "CAMERA":
-                PermissionManager.requestPermission(this, new PermissionManager.PermissionsListener() {
+                PermissionManager.requestPermission(this,"explanation in case of deny", new PermissionManager.PermissionsListener() {
                     @Override
                     public void onDeny() {
                         Toast.makeText(MainActivity.this, "on CAMERA onDeny", Toast.LENGTH_SHORT).show();
@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
                 }, PermissionManager.CAMERA);
                 break;
             case "CONTACTS":
-                PermissionManager.requestPermission(this, new PermissionManager.PermissionsListener() {
+                PermissionManager.requestPermission(this,"explanation in case of deny", new PermissionManager.PermissionsListener() {
                     @Override
                     public void onDeny() {
                         Toast.makeText(MainActivity.this, "on CONTACTS onDeny", Toast.LENGTH_SHORT).show();
@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
                 }, PermissionManager.READ_CONTACTS);
                 break;
             case "LOCATION":
-                PermissionManager.requestPermission(this, new PermissionManager.PermissionsListener() {
+                PermissionManager.requestPermission(this,"explanation in case of deny", new PermissionManager.PermissionsListener() {
                     @Override
                     public void onDeny() {
                         Toast.makeText(MainActivity.this, "on LOCATION onDeny", Toast.LENGTH_SHORT).show();
@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
                 }, PermissionManager.ACCESS_COARSE_LOCATION);
                 break;
             case "MICROPHONE":
-                PermissionManager.requestPermission(this, new PermissionManager.PermissionsListener() {
+                PermissionManager.requestPermission(this,"explanation in case of deny", new PermissionManager.PermissionsListener() {
                     @Override
                     public void onDeny() {
                         Toast.makeText(MainActivity.this, "on MICROPHONE onDeny", Toast.LENGTH_SHORT).show();
@@ -123,7 +123,7 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
                 }, PermissionManager.RECORD_AUDIO);
                 break;
             case "PHONE":
-                PermissionManager.requestPermission(this, new PermissionManager.PermissionsListener() {
+                PermissionManager.requestPermission(this,"explanation in case of deny", new PermissionManager.PermissionsListener() {
                     @Override
                     public void onDeny() {
                         Toast.makeText(MainActivity.this, "on PHONE onDeny", Toast.LENGTH_SHORT).show();
@@ -136,7 +136,7 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
                 }, PermissionManager.READ_PHONE_STATE);
                 break;
             case "SENSORS":
-                PermissionManager.requestPermission(this, new PermissionManager.PermissionsListener() {
+                PermissionManager.requestPermission(this,"explanation in case of deny", new PermissionManager.PermissionsListener() {
                     @Override
                     public void onDeny() {
                         Toast.makeText(MainActivity.this, "on SENSORS onDeny", Toast.LENGTH_SHORT).show();
@@ -149,7 +149,7 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
                 }, PermissionManager.BODY_SENSORS);
                 break;
             case "SMS":
-                PermissionManager.requestPermission(this, new PermissionManager.PermissionsListener() {
+                PermissionManager.requestPermission(this,"explanation in case of deny", new PermissionManager.PermissionsListener() {
                     @Override
                     public void onDeny() {
                         Toast.makeText(MainActivity.this, "on SMS onDeny", Toast.LENGTH_SHORT).show();
@@ -162,7 +162,7 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
                 }, PermissionManager.READ_SMS);
                 break;
             case "STORAGE":
-                PermissionManager.requestPermission(this, new PermissionManager.PermissionsListener() {
+                PermissionManager.requestPermission(this,"explanation in case of deny", new PermissionManager.PermissionsListener() {
                     @Override
                     public void onDeny() {
                         Toast.makeText(MainActivity.this, "on STORAGE onDeny", Toast.LENGTH_SHORT).show();

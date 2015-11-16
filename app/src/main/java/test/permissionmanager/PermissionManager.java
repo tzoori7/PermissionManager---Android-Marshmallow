@@ -36,17 +36,6 @@ public class PermissionManager {
     public static final int  RC_STORAGE = 8;
 
 
-    public static final String CALENDAR_EXPLAIN = "CALENDAR_EXPLAIN";
-    public static final String CAMERA_EXPLAIN = "CAMERA_EXPLAIN";
-    public static final String CONTACTS_EXPLAIN = "CONTACTS_EXPLAIN";
-    public static final String LOCATION_EXPLAIN = "LOCATION_EXPLAIN";
-    public static final String MICROPHONE_EXPLAIN = "MICROPHONE_EXPLAIN";
-    public static final String PHONE_EXPLAIN = "PHONE_EXPLAIN";
-    public static final String SENSORS_EXPLAIN = "SENSORS_EXPLAIN";
-    public static final String SMS_EXPLAIN = "SMS_EXPLAIN";
-    public static final String STORAGE_EXPLAIN = "STORAGE_EXPLAIN";
-
-
     //dengaruse permission list by caterory
     public static final String  READ_CALENDAR = Manifest.permission.READ_CALENDAR;
     public static final String  WRITE_CALENDAR = Manifest.permission.WRITE_CALENDAR;
@@ -128,35 +117,28 @@ public class PermissionManager {
     }
 
 
-    public static void requestPermission(AppCompatActivity context, PermissionsListener listener,@Permission String... permissions){
+    public static void requestPermission(AppCompatActivity context,String explanation, PermissionsListener listener,@Permission String... permissions){
         boolean permissionGranted = checkGroupPermissions(context,permissions);
-        String explanation = "";
         int requestCode = -1;
-
             switch (permissions[0]){
                 case Manifest.permission.READ_CALENDAR:
                 case Manifest.permission.WRITE_CALENDAR:
-                    explanation =CALENDAR_EXPLAIN;
                     requestCode = RC_CALENDAR;
                     break;
                 case Manifest.permission.CAMERA:
 
-                    explanation =CAMERA_EXPLAIN;
                     requestCode = RC_CAMERA;
                     break;
                 case Manifest.permission.READ_CONTACTS:
                 case Manifest.permission.WRITE_CONTACTS:
                 case Manifest.permission.GET_ACCOUNTS:
-                    explanation =CONTACTS_EXPLAIN;
                     requestCode = RC_CONTACTS;
                     break;
                 case Manifest.permission.ACCESS_COARSE_LOCATION:
                 case Manifest.permission.ACCESS_FINE_LOCATION:
-                    explanation =LOCATION_EXPLAIN;
                     requestCode = RC_LOCATION;
                     break;
                 case Manifest.permission.RECORD_AUDIO:
-                    explanation =MICROPHONE_EXPLAIN;
                     requestCode = RC_MICROPHONE;
                     break;
                 case Manifest.permission.READ_PHONE_STATE:
@@ -166,11 +148,9 @@ public class PermissionManager {
                 case Manifest.permission.ADD_VOICEMAIL:
                 case Manifest.permission.USE_SIP:
                 case Manifest.permission.PROCESS_OUTGOING_CALLS:
-                    explanation =PHONE_EXPLAIN;
                     requestCode = RC_PHONE;
                     break;
                 case Manifest.permission.BODY_SENSORS:
-                    explanation =SENSORS_EXPLAIN;
                     requestCode = RC_SENSORS;
                     break;
                 case Manifest.permission.SEND_SMS:
@@ -178,12 +158,10 @@ public class PermissionManager {
                 case Manifest.permission.READ_SMS:
                 case Manifest.permission.RECEIVE_WAP_PUSH:
                 case Manifest.permission.RECEIVE_MMS:
-                    explanation =SMS_EXPLAIN;
                     requestCode = RC_SMS;
                     break;
                 case Manifest.permission.READ_EXTERNAL_STORAGE:
                 case Manifest.permission.WRITE_EXTERNAL_STORAGE:
-                    explanation =STORAGE_EXPLAIN;
                     requestCode = RC_STORAGE;
                     break;
 
@@ -240,6 +218,7 @@ public class PermissionManager {
         } else {
             mListener.onDeny();
         }
+        mListener = null;
         /*switch (requestCode) {
             case PermissionManager.RC_CALENDAR: {
                 // If request is cancelled, the result arrays are empty.
