@@ -4,7 +4,7 @@ easy framwork to work with new Android Marshmallow permission logic
 
 #usage:
 
-        PermissionManager.requestPermission(this, new PermissionManager.PermissionsListener() {
+        PermissionManager.requestPermission(this, "Explanation in case of deny", new PermissionManager.PermissionsListener() {
                 @Override
                 public void onDeny() {
                     Toast.makeText(MainActivity.this, "CALENDAR onDeny", Toast.LENGTH_SHORT).show();
