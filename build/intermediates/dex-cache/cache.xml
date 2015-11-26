@@ -2,53 +2,53 @@
 <items version="2" >
 
     <item
-        jar="/Users/Itzhar/PermissionManager/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="19026d31f5d3ae868db81319671a642be5fbba08">
-        <dex dex="/Users/Itzhar/PermissionManager/app/build/intermediates/pre-dexed/debug/classes-20339df0ade860bee9c7044a9f9c9b1cd5b55440.jar" />
-    </item>
-    <item
-        jar="/Users/Itzhar/PermissionManager/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
-        <dex dex="/Users/Itzhar/PermissionManager/app/build/intermediates/pre-dexed/debug/classes-49ea9ec40cdcc11d6dcae566c5d635bd33cecf14.jar" />
-    </item>
-    <item
-        jar="/Users/Itzhar/PermissionManager/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jar="/Users/Itzhar/Documents/allApplications/PermissionManager/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
-        <dex dex="/Users/Itzhar/PermissionManager/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-0bc57e71b22793e38ba0301e3256c2802e04cd31.jar" />
+        <dex dex="/Users/Itzhar/Documents/allApplications/PermissionManager/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-6626080907ac6da1d0a2411517045ec825f72f89.jar" />
     </item>
     <item
-        jar="/Users/Itzhar/PermissionManager/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
+        jar="/Users/Itzhar/Documents/allApplications/PermissionManager/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
-        <dex dex="/Users/Itzhar/PermissionManager/app/build/intermediates/pre-dexed/debug/classes-93756935c858c4b6c58d4d6ef872b966dfae9d53.jar" />
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="/Users/Itzhar/Documents/allApplications/PermissionManager/app/build/intermediates/pre-dexed/debug/classes-4dae453df2a6f3d124072a83c13b9ccf1645d141.jar" />
+    </item>
+    <item
+        jar="/Users/Itzhar/Documents/allApplications/PermissionManager/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="19026d31f5d3ae868db81319671a642be5fbba08">
+        <dex dex="/Users/Itzhar/Documents/allApplications/PermissionManager/app/build/intermediates/pre-dexed/debug/classes-bb626f57ae948c18f9308ea3817f575a73761da6.jar" />
+    </item>
+    <item
+        jar="/Users/Itzhar/Documents/allApplications/PermissionManager/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d96886efea7cc74fbb3abd0e3b51d5638fc57be0">
+        <dex dex="/Users/Itzhar/Documents/allApplications/PermissionManager/app/build/intermediates/pre-dexed/debug/classes-c835e58ce12f80ab5cb3de6aa824df358819db07.jar" />
     </item>
     <item
         jar="/Users/Itzhar/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="92e3fc113ec3ee36b64603a38857b95700025633">
-        <dex dex="/Users/Itzhar/PermissionManager/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.0-47a2f19fdc12689ecf1374b8b77b0335c762b825.jar" />
+        <dex dex="/Users/Itzhar/Documents/allApplications/PermissionManager/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.0-47a2f19fdc12689ecf1374b8b77b0335c762b825.jar" />
     </item>
     <item
-        jar="/Users/Itzhar/PermissionManager/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/jars/classes.jar"
+        jar="/Users/Itzhar/Documents/allApplications/PermissionManager/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
-        <dex dex="/Users/Itzhar/PermissionManager/app/build/intermediates/pre-dexed/debug/classes-49c79607aa5ce3a006482ae5496d4eaeb9934485.jar" />
+        <dex dex="/Users/Itzhar/Documents/allApplications/PermissionManager/app/build/intermediates/pre-dexed/debug/classes-9a89e78a11423960320c1999fa3c15c6035aa7c7.jar" />
     </item>
     <item
-        jar="/Users/Itzhar/PermissionManager/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.0/jars/classes.jar"
+        jar="/Users/Itzhar/Documents/allApplications/PermissionManager/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="d96886efea7cc74fbb3abd0e3b51d5638fc57be0">
-        <dex dex="/Users/Itzhar/PermissionManager/app/build/intermediates/pre-dexed/debug/classes-44d49c1a4258c6102e16ef33a84b6f159e30a70e.jar" />
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="/Users/Itzhar/Documents/allApplications/PermissionManager/app/build/intermediates/pre-dexed/debug/classes-1f1ccad11d27a59b8d36f13d2fd062745e99ce55.jar" />
     </item>
 
 </items>
